@@ -102,10 +102,10 @@ while True:
 
     # Displaying the scores
     player_text = font.render(str(player_score), True, light_grey)
-    screen.blit(player_text, (660, 470))
+    screen.blit(player_text, (screen_width /2 + 20, 20))
     
     opponent_text = font.render(str(opponent_score), True, light_grey)
-    screen.blit(opponent_text, (600, 470))
+    screen.blit(opponent_text, (screen_width /2 - 60, 20))
 
     # Updating the window
     pygame.display.flip()
