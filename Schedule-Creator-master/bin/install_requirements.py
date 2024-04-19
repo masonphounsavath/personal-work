@@ -64,3 +64,4 @@ if len(required) > 0:
         print("[STOP] Operation terminated by user")
 else:
     print("[LOG] No packages to install")
+
